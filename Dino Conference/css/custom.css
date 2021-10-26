@@ -1,0 +1,38 @@
+.btn-outline-info,
+.navbar,
+.d-block,
+.bg {
+  background-color: darkolivegreen!important;
+}
+
+
+.bg-info {
+  background-color: olivedrab!important;
+}
+
+.py-3 {
+  color: darkolivegreen!important;
+}
+
+a {
+  color: darkolivegreen!important;
+}
+
+.nav-item,
+.nav-brand,
+.btn-outline-info {
+  color: white!important;
+}
+
+.list-group-item-success {
+  background-color: cornsilk;
+}
+
+.btn-primary {
+  border-color: white!important;
+}
+
+.btn-primary,
+.badge-info {
+  background-color: brown;
+}
