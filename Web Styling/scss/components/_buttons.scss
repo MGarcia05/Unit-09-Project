@@ -1,0 +1,48 @@
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+%btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $button-color;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+    @media (min-width: $break-m) {
+        padding: 10px 30px;
+
+        &+& {
+            margin-left: 10px;
+        }
+    }
+
+}
+
+.default {
+    @extend %btn;
+    @include buttony($color-lightteal);
+}
+
+.error {
+    @extend %btn;
+    @include buttony($color-salmon);
+}
+
+.info {
+    @extend %btn;
+    @include buttony($color-ube);
+}
+
+.success {
+    @extend %btn;
+    @include buttony($color-green);
+}
+
+.warning {
+    @extend %btn;
+    @include buttony($color-coral);
+}
